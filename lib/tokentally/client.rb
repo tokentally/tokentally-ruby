@@ -13,7 +13,7 @@ module TokenTally
   #   puts "Cost: $#{response[:cost_usd]}"
   #
   class Client
-    DEFAULT_BASE_URL = "https://api.tokentally.io"
+    DEFAULT_BASE_URL = "https://api.tokentally.cloud"
     DEFAULT_TIMEOUT = 30
 
     attr_reader :api_key, :base_url, :timeout

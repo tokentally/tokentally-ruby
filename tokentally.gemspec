@@ -2,12 +2,16 @@ Gem::Specification.new do |spec|
   spec.name          = "tokentally"
   spec.version       = "0.1.0"
   spec.authors       = ["TokenTally"]
-  spec.email         = ["support@tokentally.io"]
+  spec.email         = ["support@tokentally.cloud"]
 
   spec.summary       = "Track AI API usage with TokenTally"
   spec.description   = "Ruby SDK for TokenTally - Track your AI API usage, costs, and analytics for Claude, OpenAI, and other providers."
-  spec.homepage      = "https://github.com/tokentally/tokentally-ruby"
+  spec.homepage      = "https://tokentally.cloud"
   spec.license       = "MIT"
+  spec.metadata      = {
+    "homepage_uri" => "https://tokentally.cloud",
+    "source_code_uri" => "https://github.com/tokentally/tokentally-ruby"
+  }
   spec.required_ruby_version = ">= 2.7.0"
 
   spec.files = Dir["lib/**/*", "README.md", "LICENSE"]

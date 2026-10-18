@@ -29,6 +29,6 @@ module TokenTally
     end
   end
 
-  self.base_url = "https://api.tokentally.io"
+  self.base_url = "https://api.tokentally.cloud"
   self.timeout = 30
 end
