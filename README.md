@@ -46,7 +46,7 @@ puts "Recorded! Cost: $#{response[:cost_usd]}"
 ```ruby
 TokenTally.configure do |config|
   config.api_key = 'tt_your_api_key'
-  config.base_url = 'https://api.tokentally.io'
+  config.base_url = 'https://api.tokentally.cloud'
   config.timeout = 30
 end
 
