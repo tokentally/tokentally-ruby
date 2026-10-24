@@ -1,6 +1,8 @@
 # TokenTally Ruby SDK
 
-Track your AI API usage with TokenTally. Get real-time analytics, cost tracking, and usage insights for Claude, OpenAI, and other AI providers.
+Track your AI API usage with [TokenTally](https://tokentally.cloud). Get real-time analytics, cost tracking, and usage insights for Claude, OpenAI, and other AI providers.
+
+Sign up and get your API key at **[tokentally.cloud](https://tokentally.cloud)** (Settings → API Keys).
 
 ## Installation
 
@@ -44,7 +46,7 @@ puts "Recorded! Cost: $#{response[:cost_usd]}"
 ```ruby
 TokenTally.configure do |config|
   config.api_key = 'tt_your_api_key'
-  config.base_url = 'https://api.tokentally.io'
+  config.base_url = 'https://api.tokentally.cloud'
   config.timeout = 30
 end
 
@@ -112,6 +114,12 @@ rescue TokenTally::Error => e
   puts "Error: #{e.message}"
 end
 ```
+
+## Links
+
+- Website & dashboard: [tokentally.cloud](https://tokentally.cloud)
+- Python SDK: [tokentally/tokentally-python](https://github.com/tokentally/tokentally-python)
+- TypeScript SDK: [tokentally/tokentally-node](https://github.com/tokentally/tokentally-node)
 
 ## License
 
